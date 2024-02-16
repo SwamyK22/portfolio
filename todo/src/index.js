@@ -3,16 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SimpleForm from './useFormExample/simpleForm';
-import MainApp from './useFormExample/mainApp';
-import Demo from './useFormExample/Demo';
-import Counter from './Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <MainApp /> */}
-    <Counter initialCount={0} />
+    <App />
   </React.StrictMode>
 );
 
